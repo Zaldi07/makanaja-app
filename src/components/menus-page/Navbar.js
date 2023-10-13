@@ -3,8 +3,17 @@ import React from "react";
 const NavbarMenu = () => {
   return (
     <>
-      <div>
-        <h1 className="text-blue-400 font-semibold text-lg">Navbar Menu</h1>
+      <div className="w-screen fixed">
+        <div className="flex">
+          <input />
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <div>
+            <button></button>
+          </div>
+        </div>
       </div>
     </>
   );
