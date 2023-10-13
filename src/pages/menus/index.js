@@ -1,10 +1,18 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
+import React from "react";
 
-const inter = Inter({ subsets: ["latin"] });
+import NavbarMenu from "@/components/menus-page/Navbar"
+import Card from "@/components/menus-page/Card";
 
-export default function Home() {
+const Navbar = () => {
   return (
- <div className="text-xl text-red-400 font-bold">menu</div>
+    <>
+      <div>
+        <NavbarMenu />
+        <h1 className="font-bold text-xl text-red-400">Menus</h1>
+        <Card />
+      </div>
+    </>
   );
-}
+};
+
+export default Navbar;
